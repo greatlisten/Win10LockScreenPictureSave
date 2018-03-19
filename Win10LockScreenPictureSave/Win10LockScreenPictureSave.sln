@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win10LockScreenPictureSave", "Win10LockScreenPictureSave\Win10LockScreenPictureSave.csproj", "{F4AA7C19-101F-4107-83F2-A412E1850BC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4AA7C19-101F-4107-83F2-A412E1850BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AA7C19-101F-4107-83F2-A412E1850BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AA7C19-101F-4107-83F2-A412E1850BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AA7C19-101F-4107-83F2-A412E1850BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E06C4DB7-34DA-41EE-83B9-5293F5F15A3C}
+	EndGlobalSection
+EndGlobal
