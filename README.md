@@ -1,0 +1,2 @@
+# Win10LockScreenPictureSave
+从C盘深处中获取win10锁屏壁纸保存到D:\LockScreenPicture中并修改为jpg文件
