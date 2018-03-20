@@ -44,6 +44,7 @@ namespace Win10LockScreenPictureSave
             {
                 Console.WriteLine("FilePath No Found");
                 Console.WriteLine(e.Message);
+                Console.ReadKey();
                 return;
             }
             //处理sourceFullName
