@@ -19,9 +19,13 @@ namespace Win10LockScreenPictureSave
         /// </summary>
         static string[] sourceFileName;
         /// <summary>
-        /// 保存文件名
+        /// 已保存的文件名
         /// </summary>
         static Dictionary<string, int> saveDictionary = new Dictionary<string, int>();
+        /// <summary>
+        /// 新保存的文件名
+        /// </summary>
+        static List<string> newSaveFile = new List<string>();
 
         static void Main(string[] args)
         {
@@ -61,10 +65,21 @@ namespace Win10LockScreenPictureSave
                 {
                     File.Copy(sourceDirectory + "\\" + s, saveDirectory + "\\" + s + ".jpg");
                     counter++;
+                    newSaveFile.Add(s + ".jpg"); // 保存新文件名
                 }
             }
             //end
             Console.WriteLine("We have {0} new picture", counter);
+            if (0 != counter)
+            {
+                // 显示新保存的文件名
+                foreach (string s in newSaveFile)
+                {
+                    Console.WriteLine(s);
+                }
+            }
+            Console.Write("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
